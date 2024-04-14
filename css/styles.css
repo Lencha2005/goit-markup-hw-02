@@ -12,22 +12,23 @@ button {
 }
 
 body {
-    font-size: "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #fff;
 }
 /*================ HEADER ================*/
 .logo {
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
+    color: #4d5ae5
 }
 
-.text-blue {
-    color: #4d5ae5;
+.logo-part { 
+    color: #2e2f42;
 }
 
 .menu-link {
@@ -39,7 +40,7 @@ body {
 }
 
 .menu-link:hover,
-.menu-link:active {
+.menu-link:focus {
     color: #404bbf
 }
 
@@ -73,6 +74,7 @@ color: #404bbf
 }
 
 .hero-button {
+    font-family: inherit;
     font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -103,7 +105,7 @@ font-weight: 500;
 /*================OUR TEAM================*/
 
 .our-team {
-    background: #f4f4fd;
+    background: #FFFFFF;
 }
 
 .team-title {
@@ -112,6 +114,7 @@ font-weight: 500;
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
+        text-transform: capitalize
         color: #2e2f42;
 }
 
@@ -121,6 +124,7 @@ font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
         text-align: center;
+        text-transform: capitalize
         color: #2e2f42;
 }
 
@@ -138,6 +142,7 @@ font-weight: 500;
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
+        text-transform: capitalize
         color: #2e2f42;
 }
 
@@ -146,6 +151,7 @@ font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
+        text-transform: capitalize
         color: #2e2f42;
 }
 
@@ -158,12 +164,17 @@ font-weight: 500;
 /*================FOOTER================*/
 
 .logo-footer {
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
         font-size: 18px;
-        line-height: 1.17;
+        line-height: 1.16667;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #f4f4fd;
+        color: #4d5ae5;
+}
+
+.logo-part-footer {
+    color: #f4f4fd;
 }
 .page-footer {
     background: #2e2f42;
