@@ -62,7 +62,7 @@ color: #404bbf
 /*================ HERO ================*/
 
 .hero {
-    background: #2e2f42;
+    background-color: #2e2f42;
 }
 .hero-title {
     font-weight: 700;
@@ -105,7 +105,7 @@ font-weight: 500;
 /*================OUR TEAM================*/
 
 .our-team {
-    background: #FFFFFF;
+    background-color: #F4F4FD;
 }
 
 .team-title {
@@ -114,7 +114,7 @@ font-weight: 500;
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
-        text-transform: capitalize
+        text-transform: capitalize;
         color: #2e2f42;
 }
 
@@ -124,7 +124,7 @@ font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
         text-align: center;
-        text-transform: capitalize
+        text-transform: capitalize;
         color: #2e2f42;
 }
 
@@ -142,7 +142,7 @@ font-weight: 500;
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
-        text-transform: capitalize
+        text-transform: capitalize;
         color: #2e2f42;
 }
 
@@ -151,7 +151,7 @@ font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
-        text-transform: capitalize
+        text-transform: capitalize;
         color: #2e2f42;
 }
 
@@ -167,7 +167,7 @@ font-weight: 500;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
         font-size: 18px;
-        line-height: 1.16667;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
@@ -177,7 +177,7 @@ font-weight: 500;
     color: #f4f4fd;
 }
 .page-footer {
-    background: #2e2f42;
+    background-color: #2e2f42;
 }
 
 .text-footer {
